@@ -19,8 +19,19 @@
     $price = 100 ;
     echo $price;
     echo $name;
+
+    // যদি variable print করতে চাই তাহলে "" দিতে হবে
+    echo " Hello $name your amount is $price ";
+    //আর  যদি variable single '' print করতে চাই তাহলে . দিতে হবে
+    echo ' Hello' .$name,' your amount is' .$price ;
+    echo " Hello " .$name." your amount is".$price."";
+
+    $first_name = "Rabbi";
+    $name = "first_name";
+    echo $$name;
     
     ?>
+    <h1>Hello <?php echo $first_name;?>, Your amount is <?php echo $price;?></h1>
 </body>
 
 </html>
