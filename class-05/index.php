@@ -11,17 +11,17 @@
 // $totalPrice = $firstPrice + $secondPrice;
 // echo $totalPrice
 
-$number = 5; // You can change this to any number you want to find the factorial of
-$factorial = 1;
+// $number = 5; // You can change this to any number you want to find the factorial of
+// $factorial = 1;
 
-for ($i = 1; $i <= $number; $i++) {
-    $factorial *= $i; // Multiply factorial by the current number
-}
+// for ($i = 1; $i <= $number; $i++) {
+//     $factorial *= $i; // Multiply factorial by the current number
+// }
 
-echo "The factorial of $number is $factorial.";
+// echo "The factorial of $number is $factorial.";
 
 
-$terms = 10; // Number of terms in the Fibonacci series
+// $terms = 10; // Number of terms in the Fibonacci series
 
 // Starting values for the Fibonacci series
 $first = 0;
@@ -38,7 +38,10 @@ for ($i = 1; $i <= $terms; $i++) {
     // Update the previous two terms
     $first = $second;
     $second = $next;
-}
+// }
+
+
+
 
 
 ?>
